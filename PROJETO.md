@@ -35,6 +35,7 @@
 | Hiperparâmetros iniciais | `sigma=1.5`, `learning_rate=0.5`, `pca_weights_init`, 5000 iterações | A ajustar (Roger) |
 | Semente | `random_seed=42` em tudo (SOM e K-Means) | Definido |
 | Ambiente | Notebooks por parte (o primeiro é `01_Amabilly_EDA_preprocessamento.ipynb`); roda local ou no Colab (baixa a base da UCI se o CSV não estiver em `dados/`) | Em uso |
+| Repositório | **GitHub público:** https://github.com/Mabynha20/projeto-som-wholesale (branch `main`). Cada pessoa cria o próprio notebook numerado (`02_Roger_...`, `03_Erica_...` etc.), faz `git pull` antes de começar e atualiza o PROJETO.md ao terminar. Combinados completos no README | ✅ Criado |
 | Paleta dos gráficos | Azul `#2a78d6` (série única e Horeca), laranja `#eb6834` (Varejo), cinza `#52514e` (referências). Manter nas outras partes | Definido (Parte 1) |
 | Métricas | Erro de quantização, erro topográfico, silhouette, Adjusted Rand Index | Definido |
 | Outliers (no SOM) | Erro de quantização individual > percentil 95 e neurônios isolados na U-Matrix | Definido |
@@ -60,6 +61,7 @@ Legenda de status: ⬜ Não iniciado · 🟨 Em andamento · ✅ Concluído
 ```
 projeto final/
 ├── PROJETO.md                              ← este arquivo
+├── README.md / requirements.txt / .gitignore
 ├── 01_Amabilly_EDA_preprocessamento.ipynb  ← Parte 1 (executado, com saídas)
 ├── dados/
 │   ├── Wholesale customers data.csv        ← base original (UCI)
@@ -172,12 +174,13 @@ Enquanto espera as outras etapas, o Ruan pode adiantar a estrutura dos slides e 
 
 ## 9. Próximos passos, pendências e dúvidas em aberto
 
-- **Amabilly:** compartilhar `dados/X_scaled.csv`, `dados/dados_preprocessados.csv` e o notebook com o grupo (subir no Colab/Drive). Escrever a parte dela no relatório a partir da seção 6.1. Montar os 2–3 slides com as figuras `02`, `04`, `05` e `06`.
+- **Amabilly:** adicionar os 5 colegas como colaboradores no GitHub (Settings → Collaborators, pelo usuário do GitHub de cada um) e mandar o link do repositório no grupo. Escrever a parte dela no relatório a partir da seção 6.1. Montar os 2–3 slides com as figuras `02`, `04`, `05` e `06`.
 - **Roger:** já pode começar o treino do SOM.
 - Confirmar a base de dados (Wholesale Customers) com o grupo.
 - Confirmar o prazo de entrega e a data da apresentação com o professor. **Data: ___ (preencher)**
 - Definir o formato da entrega (notebook, PDF ou slides?).
-- Link do Colab compartilhado: **___ (preencher)**
+- Coletar o usuário do GitHub de cada colega: Roger ___, Erica ___, Rafael ___, Herbe ___, Ruan ___.
+- Quem precisar do SOM treinado: o Roger salva o modelo em `dados/som.pkl` (combinado no README).
 - Decidir se tudo vai para um único notebook no final (o Ruan consolida) ou se ficam notebooks separados por parte.
 
 ## 10. Histórico de atualizações
@@ -187,4 +190,5 @@ Enquanto espera as outras etapas, o Ruan pode adiantar a estrutura dos slides e 
 | 2026-11-05 | Projeto 2 (SOM) escolhido; base, divisão de tarefas, passo a passo e cronograma definidos. Nenhum código feito ainda. | Planejamento inicial. |
 | 2026-11-09 | **Parte 1 (Amabilly) concluída.** Base baixada da UCI para `dados/`. Criado e executado `01_Amabilly_EDA_preprocessamento.ipynb` (qualidade, descritivas, histogramas, boxplots, correlação, gastos por canal, log1p, padronização). Gerados `X_scaled.csv`, `dados_preprocessados.csv` e 7 figuras em `figuras/`. Achados registrados na seção 6.1. | Desbloquear o treino do SOM (Roger). |
 | 2026-11-09 | Decisão: **outliers não são removidos** no pré-processamento. | A base é pequena (440), clientes grandes são um perfil real e a detecção de outliers é tarefa do SOM (Rafael). |
+| 2026-11-09 | Criado o repositório público no GitHub (https://github.com/Mabynha20/projeto-som-wholesale), com README (como usar e combinados do grupo), `requirements.txt` e `.gitignore`. Também substitui o Colab como forma principal de compartilhar. | Dar acesso aos colegas para continuarem as partes deles, com histórico e sem sobrescrever o trabalho do outro. |
 | 2026-11-09 | Definida a paleta padrão dos gráficos e a estrutura de pastas (`dados/`, `figuras/`). Notebook roda local ou no Colab. | Manter um visual consistente entre as partes e facilitar o compartilhamento. |
