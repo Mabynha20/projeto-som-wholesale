@@ -2,12 +2,15 @@
 
 Projeto final de **Aprendizado Não Supervisionado**: segmentação de 440 clientes de um atacadista com SOM, comparada com K-Means e PCA.
 
-> 📌 **Leia primeiro o [PROJETO.md](PROJETO.md)**. Ele tem as decisões, a divisão de tarefas, o passo a passo de cada parte, o status e o histórico.
+> 👉 **O que você precisa fazer está no [TAREFAS.md](TAREFAS.md)**: a parte de cada um, o que recebe, o que entrega e o passo a passo.
+>
+> 📌 Contexto e decisões estão no [PROJETO.md](PROJETO.md), que tem as decisões, a divisão de tarefas, o passo a passo de cada parte, o status e o histórico.
 
 ## Estrutura
 
 ```
-├── PROJETO.md                              ← registro central (decisões, tarefas, histórico)
+├── TAREFAS.md                              ← o que cada um precisa fazer
+├── PROJETO.md                              ← registro central (decisões, histórico)
 ├── 01_Amabilly_EDA_preprocessamento.ipynb  ← Parte 1 ✅
 ├── dados/
 │   ├── Wholesale customers data.csv        ← base original (UCI)
