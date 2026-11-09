@@ -1,6 +1,6 @@
 # PROJETO.md — Projeto Final de Aprendizado Não Supervisionado (SOM)
 
-> **Para que serve este arquivo:** registro central do projeto. Quem retomar o trabalho (inclusive o Claude em uma nova sessão) deve ler este arquivo primeiro e atualizá-lo sempre que algo mudar: decisões, status de cada parte e o histórico no final.
+> **Para que serve este arquivo:** registro central do projeto. Quem retomar o trabalho deve ler este arquivo primeiro e atualizá-lo sempre que algo mudar: decisões, status de cada parte e o histórico no final.
 
 ---
 
