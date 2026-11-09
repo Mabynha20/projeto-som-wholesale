@@ -179,7 +179,7 @@ Enquanto espera as outras etapas, o Ruan pode adiantar a estrutura dos slides e 
 - Confirmar a base de dados (Wholesale Customers) com o grupo.
 - Confirmar o prazo de entrega e a data da apresentação com o professor. **Data: ___ (preencher)**
 - Definir o formato da entrega (notebook, PDF ou slides?).
-- Coletar o usuário do GitHub de cada colega: Roger ___, Erica ___, Rafael ___, Herbe ___, Ruan ___.
+- Colaboradores no GitHub: Erica `11erica006`, Rafael `rodyneyh`, Herbe `herbefragoso` e Ruan `RuaanSouza` (convites enviados, aguardando aceite). Roger `rcoliveirasb`: convite pendente de confirmação.
 - Quem precisar do SOM treinado: o Roger salva o modelo em `dados/som.pkl` (combinado no README).
 - Decidir se tudo vai para um único notebook no final (o Ruan consolida) ou se ficam notebooks separados por parte.
 
@@ -190,5 +190,6 @@ Enquanto espera as outras etapas, o Ruan pode adiantar a estrutura dos slides e 
 | 2026-11-05 | Projeto 2 (SOM) escolhido; base, divisão de tarefas, passo a passo e cronograma definidos. Nenhum código feito ainda. | Planejamento inicial. |
 | 2026-11-09 | **Parte 1 (Amabilly) concluída.** Base baixada da UCI para `dados/`. Criado e executado `01_Amabilly_EDA_preprocessamento.ipynb` (qualidade, descritivas, histogramas, boxplots, correlação, gastos por canal, log1p, padronização). Gerados `X_scaled.csv`, `dados_preprocessados.csv` e 7 figuras em `figuras/`. Achados registrados na seção 6.1. | Desbloquear o treino do SOM (Roger). |
 | 2026-11-09 | Decisão: **outliers não são removidos** no pré-processamento. | A base é pequena (440), clientes grandes são um perfil real e a detecção de outliers é tarefa do SOM (Rafael). |
+| 2026-11-09 | Convites de colaborador enviados para Erica, Rafael, Herbe e Ruan; o do Roger está pendente. | Dar permissão de envio (push) para cada um subir a própria parte. |
 | 2026-11-09 | Criado o repositório público no GitHub (https://github.com/Mabynha20/projeto-som-wholesale), com README (como usar e combinados do grupo), `requirements.txt` e `.gitignore`. Também substitui o Colab como forma principal de compartilhar. | Dar acesso aos colegas para continuarem as partes deles, com histórico e sem sobrescrever o trabalho do outro. |
 | 2026-11-09 | Definida a paleta padrão dos gráficos e a estrutura de pastas (`dados/`, `figuras/`). Notebook roda local ou no Colab. | Manter um visual consistente entre as partes e facilitar o compartilhamento. |
